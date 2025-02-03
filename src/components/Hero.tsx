@@ -3,7 +3,7 @@ export function Hero() {
     <div className="relative mt-2">
       <div className="absolute w-full h-full bg-gradient-to-t from-gray-100 to-transparent z-10" />
       <img
-        src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&q=80&w=2070"
+        src="https://m.media-amazon.com/images/I/717RUPA1bDL._SX3000_.jpg"
         alt="Hero"
         className="w-full h-[600px] object-cover"
       />
@@ -13,19 +13,19 @@ export function Hero() {
           {[
             {
               title: "Electronics",
-              image: "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&q=80&w=500",
+              image: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg",
             },
             {
               title: "Fashion",
-              image: "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&q=80&w=500",
+              image: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_WomenFashion_Sweatshirt_Quad_Cat_1x._SY116_CB418608878_.jpg",
             },
             {
               title: "Home & Kitchen",
-              image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&q=80&w=500",
+              image: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_HomeBedding_Single_Cat_1x._SY304_CB418596953_.jpg",
             },
             {
               title: "Books",
-              image: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&q=80&w=500",
+              image: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Books_1X._SY304_CB417582228_.jpg",
             },
           ].map((item) => (
             <div key={item.title} className="bg-white p-4 rounded-lg shadow-lg">

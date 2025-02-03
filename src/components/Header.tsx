@@ -1,4 +1,5 @@
 import { Search, ShoppingCart, Menu, MapPin } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 export function Header() {
   return (
@@ -6,10 +7,10 @@ export function Header() {
       <div className="max-w-[1500px] mx-auto">
         <div className="flex items-center p-2 gap-4">
           {/* Logo */}
-          <div className="flex items-center">
+          <Link to="/" className="flex items-center">
             <span className="text-2xl font-bold">amazon</span>
             <span className="text-xs">.com</span>
-          </div>
+          </Link>
 
           {/* Deliver To */}
           <div className="flex items-center text-sm hover:border border-white p-2 rounded-sm cursor-pointer">
@@ -39,20 +40,20 @@ export function Header() {
 
           {/* Right Side */}
           <div className="flex items-center gap-4">
-            <div className="hover:border border-white p-2 rounded-sm cursor-pointer">
+            <Link to="/signin" className="hover:border border-white p-2 rounded-sm">
               <p className="text-xs">Hello, sign in</p>
               <p className="font-bold text-sm">Account & Lists</p>
-            </div>
+            </Link>
 
-            <div className="hover:border border-white p-2 rounded-sm cursor-pointer">
+            <Link to="/orders" className="hover:border border-white p-2 rounded-sm">
               <p className="text-xs">Returns</p>
               <p className="font-bold text-sm">& Orders</p>
-            </div>
+            </Link>
 
-            <div className="flex items-center hover:border border-white p-2 rounded-sm cursor-pointer">
+            <Link to="/cart" className="flex items-center hover:border border-white p-2 rounded-sm">
               <ShoppingCart size={30} />
               <span className="font-bold">Cart</span>
-            </div>
+            </Link>
           </div>
         </div>
 
@@ -62,11 +63,37 @@ export function Header() {
             <Menu size={20} />
             <span>All</span>
           </div>
-          {['Today\'s Deals', 'Customer Service', 'Registry', 'Gift Cards', 'Sell'].map((item) => (
-            <div key={item} className="hover:border border-white p-1 rounded-sm cursor-pointer">
-              {item}
-            </div>
-          ))}
+          
+          {/* Category Links */}
+          <Link to="/electronics" className="hover:border border-white p-1 rounded-sm">
+            Electronics
+          </Link>
+          <Link to="/fashion" className="hover:border border-white p-1 rounded-sm">
+            Fashion
+          </Link>
+          <Link to="/home-kitchen" className="hover:border border-white p-1 rounded-sm">
+            Home & Kitchen
+          </Link>
+          <Link to="/books" className="hover:border border-white p-1 rounded-sm">
+            Books
+          </Link>
+
+          {/* Utility Links */}
+          <Link to="/deals" className="hover:border border-white p-1 rounded-sm">
+            Today's Deals
+          </Link>
+          <Link to="/customer-service" className="hover:border border-white p-1 rounded-sm">
+            Customer Service
+          </Link>
+          <Link to="/registry" className="hover:border border-white p-1 rounded-sm">
+            Registry
+          </Link>
+          <Link to="/gift-cards" className="hover:border border-white p-1 rounded-sm">
+            Gift Cards
+          </Link>
+          <div className="hover:border border-white p-1 rounded-sm cursor-pointer">
+            Sell
+          </div>
         </div>
       </div>
     </header>

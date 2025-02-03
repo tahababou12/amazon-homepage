@@ -1,98 +1,201 @@
 export const products = [
   {
     id: 1,
-    title: "Premium Wireless Headphones",
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=500",
-    deal: "Up to 70% off",
-    price: 199.99,
-    rating: 4.5,
-    reviews: 2547,
-    description: "Experience premium sound quality with our wireless headphones. Features include active noise cancellation, 30-hour battery life, and premium comfort.",
-    features: [
-      "Active Noise Cancellation",
-      "30-hour battery life",
-      "Premium comfort with memory foam ear cushions",
-      "Bluetooth 5.0 connectivity",
-      "Built-in microphone for calls"
-    ],
+    title: "Echo Dot (5th Gen, 2022 release)",
+    price: 49.99,
+    description: "Our best-sounding Echo Dot yet - Enjoy an improved audio experience compared to any previous Echo Dot with Alexa for clearer vocals, deeper bass and vibrant sound in any room.",
+    category: "Electronics",
+    image: "https://m.media-amazon.com/images/I/714Mg+6MoFL._AC_SX679_.jpg",
     images: [
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=500",
-      "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&q=80&w=500",
-      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&q=80&w=500"
+      "https://m.media-amazon.com/images/I/714Mg+6MoFL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71xoR4A6q3L._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71ZmPdl5c8L._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71Nj7J2uABL._AC_SX679_.jpg"
     ],
-    stock: 45,
-    category: "Electronics"
+    rating: 4.7,
+    reviews: 12890,
+    stock: 50,
+    deal: "Save 50% with Prime",
+    features: [
+      "Better audio experience with clearer vocals and deeper bass",
+      "Built-in Eero mesh wifi extender",
+      "Temperature sensor for smart home routines",
+      "LED display shows time, alarms, weather and more"
+    ]
   },
   {
     id: 2,
-    title: "Interactive Learning Toys Set",
-    image: "https://images.unsplash.com/photo-1558877385-81a1c7e67d72?auto=format&fit=crop&q=80&w=500",
-    deal: "Shop now",
-    price: 49.99,
-    rating: 4.8,
-    reviews: 1832,
-    description: "Educational toy set designed to develop critical thinking and creativity in children aged 3-7 years.",
-    features: [
-      "STEM-focused learning materials",
-      "Safe, non-toxic materials",
-      "Develops problem-solving skills",
-      "Includes 50+ pieces",
-      "Suitable for ages 3-7"
-    ],
+    title: "2023 Apple MacBook Air Laptop",
+    price: 1099.99,
+    description: "Supercharged by M2 chip: 15.3-inch Liquid Retina Display, 8GB RAM, 256GB SSD Storage.",
+    category: "Electronics",
+    image: "https://m.media-amazon.com/images/I/81Fm0tRFdHL._AC_SX679_.jpg",
     images: [
-      "https://images.unsplash.com/photo-1558877385-81a1c7e67d72?auto=format&fit=crop&q=80&w=500",
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&q=80&w=500",
-      "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&q=80&w=500"
+      "https://m.media-amazon.com/images/I/81Fm0tRFdHL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71S4sIPFvBL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/61LNGJEMh0L._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71TPda7cwUL._AC_SX679_.jpg"
     ],
-    stock: 120,
-    category: "Toys"
+    rating: 4.8,
+    reviews: 2456,
+    stock: 25,
+    deal: "Free Prime Delivery",
+    features: [
+      "15.3-inch Liquid Retina Display",
+      "Apple M2 chip with 8-core CPU and 10-core GPU",
+      "8GB unified memory",
+      "256GB SSD storage",
+      "1080p FaceTime HD camera"
+    ]
   },
   {
     id: 3,
-    title: "Luxury Skincare Collection",
-    image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=500",
-    deal: "See more",
-    price: 89.99,
-    rating: 4.7,
-    reviews: 3421,
-    description: "Premium skincare collection featuring natural ingredients and advanced anti-aging formula.",
-    features: [
-      "All-natural ingredients",
-      "Dermatologist tested",
-      "Anti-aging formula",
-      "Suitable for all skin types",
-      "Cruelty-free"
-    ],
+    title: "Samsung 65-Inch OLED 4K S95B Series",
+    price: 1799.99,
+    description: "Quantum HDR OLED TV with Alexa Built-in, Object Tracking Sound, LaserSlim Design",
+    category: "Electronics",
+    image: "https://m.media-amazon.com/images/I/91Mj5P4xn+L._AC_SX679_.jpg",
     images: [
-      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=500",
-      "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?auto=format&fit=crop&q=80&w=500",
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=500"
+      "https://m.media-amazon.com/images/I/91Mj5P4xn+L._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/81Mj5oO9jvL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/81vLGl0EyXL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/81zZHtxGXVL._AC_SX679_.jpg"
     ],
-    stock: 75,
-    category: "Beauty"
+    rating: 4.6,
+    reviews: 856,
+    stock: 15,
+    deal: "Save $500 with Amazon Prime Card",
+    features: [
+      "Neural Quantum Processor with 4K Upscaling",
+      "Quantum HDR OLED",
+      "Dolby Atmos & Object Tracking Sound",
+      "LaserSlim Design",
+      "Built-in Alexa & Google Assistant"
+    ]
   },
   {
     id: 4,
-    title: "Smart Kitchen Appliance Set",
-    image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&q=80&w=500",
-    deal: "See more",
-    price: 299.99,
-    rating: 4.6,
-    reviews: 952,
-    description: "Transform your kitchen with this smart appliance set. Includes WiFi-enabled features and voice control compatibility.",
-    features: [
-      "WiFi connectivity",
-      "Voice control compatible",
-      "Energy efficient",
-      "LCD display",
-      "1-year warranty"
-    ],
+    title: "Sony WH-1000XM5 Wireless Headphones",
+    price: 399.99,
+    description: "Industry Leading Noise Canceling Headphones with Auto Noise Canceling Optimizer",
+    category: "Electronics",
+    image: "https://m.media-amazon.com/images/I/61+btxzpfDL._AC_SX679_.jpg",
     images: [
-      "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&q=80&w=500",
-      "https://images.unsplash.com/photo-1574269906883-67ac5cde8b46?auto=format&fit=crop&q=80&w=500",
-      "https://images.unsplash.com/photo-1586208958839-06c17cacdf08?auto=format&fit=crop&q=80&w=500"
+      "https://m.media-amazon.com/images/I/61+btxzpfDL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71QuVX9mYQL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/81XvT6uzEdL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71Gk+K7XiBL._AC_SX679_.jpg"
     ],
+    rating: 4.7,
+    reviews: 3421,
+    stock: 45,
+    deal: "6 months free Apple Music",
+    features: [
+      "Industry-leading noise cancellation",
+      "30-hour battery life",
+      "Crystal clear hands-free calling",
+      "Multipoint connection",
+      "Touch sensor controls"
+    ]
+  },
+  {
+    id: 5,
+    title: "LG C2 Series 65-Inch OLED TV",
+    price: 1596.99,
+    description: "4K Smart TV with Alexa Built-in, Gallery Design, α9 Gen5 AI Processor",
+    category: "Electronics",
+    image: "https://m.media-amazon.com/images/I/81LHYqe9vvL._AC_SX679_.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/81LHYqe9vvL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/81dxZODxylL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/81Bz7JlhgZL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/81szd0qxGDL._AC_SX679_.jpg"
+    ],
+    rating: 4.8,
+    reviews: 1234,
+    stock: 20,
+    deal: "Save with Trade-In",
+    features: [
+      "α9 Gen5 AI Processor with AI Picture Pro & AI 4K Upscaling",
+      "Brightness Booster",
+      "Dolby Vision IQ & Dolby Atmos",
+      "Gaming Features: Game Optimizer, NVIDIA G-SYNC",
+      "Gallery Design"
+    ]
+  },
+  {
+    id: 6,
+    title: "iPad Air (5th Generation)",
+    price: 559.99,
+    description: "10.9-inch iPad Air with M1 chip, 64GB, Wi-Fi, Liquid Retina Display",
+    category: "Electronics",
+    image: "https://m.media-amazon.com/images/I/61XZQXFQeVL._AC_SX679_.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/61XZQXFQeVL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71VbHaAqbML._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/81Y04IHYQSL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/61jHbwqnYVL._AC_SX679_.jpg"
+    ],
+    rating: 4.9,
+    reviews: 4567,
     stock: 30,
-    category: "Home & Kitchen"
+    deal: "3 months free Apple TV+",
+    features: [
+      "M1 chip for next-level performance",
+      "10.9-inch Liquid Retina display",
+      "Touch ID for secure authentication",
+      "12MP Ultra Wide front camera",
+      "USB-C connector"
+    ]
+  },
+  {
+    id: 7,
+    title: "Bose QuietComfort Earbuds II",
+    price: 299.99,
+    description: "Wireless Earbuds with Personalized Noise Cancelling, Bluetooth",
+    category: "Electronics",
+    image: "https://m.media-amazon.com/images/I/61Qmk4zhyJL._AC_SX679_.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/61Qmk4zhyJL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71LDBmK+67L._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71Hg7GzXiDL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71Wp4BSfY4L._AC_SX679_.jpg"
+    ],
+    rating: 4.6,
+    reviews: 2345,
+    stock: 40,
+    deal: "Limited time offer",
+    features: [
+      "Personalized noise cancellation",
+      "Up to 6 hours battery life per charge",
+      "CustomTune sound calibration",
+      "Advanced microphone system",
+      "Bluetooth 5.3"
+    ]
+  },
+  {
+    id: 8,
+    title: "Samsung Galaxy S23 Ultra",
+    price: 1199.99,
+    description: "256GB, Phantom Black - Unlocked Android Smartphone",
+    category: "Electronics",
+    image: "https://m.media-amazon.com/images/I/71Sa3dqTqGL._AC_SX679_.jpg",
+    images: [
+      "https://m.media-amazon.com/images/I/71Sa3dqTqGL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71j9GRxqRRL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71SOb4EFj9L._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71YQ1K8x-cL._AC_SX679_.jpg"
+    ],
+    rating: 4.8,
+    reviews: 3678,
+    stock: 25,
+    deal: "Save with Trade-In",
+    features: [
+      "200MP camera system",
+      "S Pen included",
+      "Snapdragon 8 Gen 2 processor",
+      "5000mAh battery",
+      "6.8-inch Dynamic AMOLED 2X display"
+    ]
   }
 ]
